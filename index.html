@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conrainer">
+<!-- 
+            <div class="col">
+                <div class="from-group">
+                    <label for="username">F.I.SH</label>
+                    <input type="text" id="username" placeholder="F.I.SH kiriting" class="form-contirol">
+                </div>
+            </div>
+            <div class="col1">
+                <label for="match">Uchrashuv</label>
+                <select name="" id="match">
+                    <option value="NASAF PAXTAKOR"> NASAF PAXTAKOR</option>
+                    <option value="PAXTAKOR BUNYODKOR">PAXTAKOR BUNYODKOR</option>
+                    <option value="LOKOMATIN NASAF">LOKOMATIN NASAF</option>
+                    <option value="BUNYODKOR CHELSE">BUNYODKOR CHELSE</option>
+                </select>
+            </div>
+        </div>
+        <div class="col2">
+            <div class="form-group">
+                <label for="pay"></label>
+                <input type="number" id="pay" placeholder="To'lovni kiriting">
+            </div>
+            <div>
+                <button class="click-button">Ro'yxatga olish</button>
+            </div>
+        </div>
+    </div>
+   </div>
+    </div> -->
+   <div class="card">
+    <div class="row">
+        <div class="col">
+            <label for="username">F.I.SH</label>
+                <input id="username" class="input" type="text" placeholder="F.I.SH kiriting">
+        </div>
+       <div class="col1">
+        <label for="match">Uchrashuv</label>
+        <select class="seleck" name="" id="match">
+            <option value="PAXTAKOR REAL MADRID">PAXTAKOR vs REAL MADRID</option>
+            <option value="NASAF BARSA">NASAF vs BARSA</option>
+            <option value="LOKOMATIF MAN YU">LOKOMATIF vs MAN YU</option>
+            <option value="BUNYODKOR CHELSE">BUNYODKOR vs CHELSE</option>
+        </select>
+       </div>
+       <div class="col2">
+        <label for="pay">To'lovni kiriting</label>
+        <input id="pay" class="input1" type="number">
+       </div>
+       <div class="col3">
+        <button class="cilck-button" onclick="getinfo()">Ro'yxatga olish</button>
+       </div>
+    </div>
+    <div class="row1">
+        <table>
+            <thead>
+                <tr>
+                    <th>T/H</th>
+                    <th>F.I.SH</th>
+                    <th>Match</th>
+                    <th>To'lov summasi</th>
+                    <th>Sana</th>
+                </tr>
+            </thead>
+            <tbody class="tbody" id="tbody">
+            </tbody>
+        </table>
+    </div>
+   </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>

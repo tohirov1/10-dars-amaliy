@@ -1,0 +1,64 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.card{
+    border: 1px solid;
+    border-radius: 5px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+}
+.seleck{
+    padding: 10px;
+    border-radius: 5px;
+}
+.input{
+    padding: 10px;
+    border-radius: 5px;
+}
+.input1{
+    padding: 10px;
+    border-radius: 5px;
+}
+.cilck-button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+tr, th,td{
+    border: 1px solid black;
+  }
+  table{
+    width: 100%;
+    padding: 0 90px;
+    margin-top: 20px;
+  }
+  .tbody{
+    border: 1px solid black;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    display: none;
+  }
+
+  
